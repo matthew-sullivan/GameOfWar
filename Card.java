@@ -5,7 +5,6 @@ public class Card {
     public Card(int value, String suit) {
         this.value = value;
         this.suit = suit;
-
     }
 
     public String getCard() {
@@ -25,7 +24,3 @@ public class Card {
         return name + " of " + suit;
     }
 }
-
-//Order of deck
-//Clubs, Hearts, Spades, Diamonds
-//Ace,2,3,4,5,6,7,8,9,10,Jack,Queen,King
